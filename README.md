@@ -18,7 +18,7 @@ In order to run this code you will need to be in your [vagrant virtual machine](
 Create the news database by running `$ psql -d news -f newsdata.sql` in the virtual machine
 command line. this creates a news database with three tables in it titled articles, log and authors.
 my code requires the addition of three views. Which can be created after gaining access to the news
-database by entering `psql news` in the command line.
+database by entering `psql news` in the command line. After the three views are added to your database, exit out of the news database to run `python mitchell_hayes_project_one.py` in the virtualbox command line which supplies the aswers to the three questions above. 
 
 ###view entry one:
 `$ create view id_views as
